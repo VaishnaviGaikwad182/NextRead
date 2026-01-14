@@ -11,16 +11,22 @@ from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
-# ================= CSS TO HIDE HEADER =================
+# ================= CSS =================
 st.markdown(
     """
     <style>
-    /* Hide Streamlit header and menu (three dots) */
-    header, footer {visibility: hidden;}
+    /* Hide only the deploy/share button */
+    button[kind="secondary"][title="Share"] {
+        display: none;
+    }
+
+    /* Hide footer */
+    footer {visibility: hidden;}
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 # ================= PAGE CONFIG =================
 st.set_page_config(
@@ -79,7 +85,7 @@ st.sidebar.markdown(
     **✨ About NextRead**  
     - Get personalized book suggestions  
     - Estimate discounts before you buy  
-    - Visualize and explore similar books   
+    - Visualize and explore similar books     
     """)
 
 
