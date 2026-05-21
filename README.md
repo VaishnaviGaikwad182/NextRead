@@ -1,6 +1,6 @@
 # NextRead
 
-NextRead is an intelligent book recommendation system built with Streamlit, featuring personalized suggestions using TF-IDF and cosine similarity algorithms. 
+NextRead is an intelligent book recommendation system built using Streamlit, featuring personalized suggestions using TF-IDF and cosine similarity algorithms. 
 Predict discounts with machine learning, visualize book clusters via PCA, and explore dataset insights including price distributions, top authors, and publishers.
 
 
